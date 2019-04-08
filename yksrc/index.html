@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<div class="wrap">
+			<header>
+				<a href="<"></a>
+				<a href="">新增地址</a>
+			</header>
+			<section>
+				<div class="mui-input-group">
+					<div class="mui-input-row">
+						<label class="name">姓名：</label>
+						<input type="text" class="mui-input-clear " id="xm" placeholder="请输入用户名">
+					</div>
+					<div class="mui-input-row">
+						<label>手机号：</label>
+						<input type="text" class="mui-input-clear " id=" pos" placeholder="请输入密码">
+					</div>
+					<div class="mui-input-row">
+						<label>固定电话号：</label>
+						<input type="text" class="mui-input-clear  " id="hao" placeholder="请输入密码">
+					</div>
+					<div class="mui-input-row">
+						<label>省市区：</label>
+						<input type="text" class="mui-input-clear  " id="qu"  placeholder="请输入密码">
+					</div>
+					<div class="mui-input-row">
+						<label>详情地址：</label>
+						<input type="text" class="mui-input-clear " id=" address" placeholder="如道路 门牌号 小区单元件等">
+					</div>
+				</div>
+
+			</section>
+			<footer>
+				<button type="button" class="mui-btn mui-btn-warning mui-btn-outlined " id="btn" >完成</button>
+
+			</footer>
+		</div>
+
+
+
+		<script src="js/require.js"></script>
+		<script>
+			require(["js/main"], function() {
+				require(["index"], function() {
+
+				})
+			})
+		</script>
+
+	</body>
+</html>
